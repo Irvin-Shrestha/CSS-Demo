@@ -1,0 +1,215 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 10px 0px 50px 0px;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  align-items: center;
+}
+
+header .nav img {
+  height: 50px;
+  width: 100px;
+}
+
+header .nav img:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.7),
+    0 6px 20px 0 rgba(255, 0, 0, 0.19);
+}
+
+header ul {
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header a:hover {
+  color: tomato;
+  box-shadow: 0 2px 6px 0 rgba(255, 0, 0, 0.3);
+}
+
+header .content {
+  display: flex;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px 100px;
+  justify-content: space-between;
+  max-height: 360px;
+}
+
+header .content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-height: 360px;
+}
+
+header .content-text h1 {
+  font-size: 3.5em;
+  max-width: 500px;
+}
+
+header .content-text p {
+  font-size: 1.2em;
+  width: 80%;
+  justify-content: center;
+  line-height: 1.4em;
+}
+
+header .content-img img {
+  max-height: 360px;
+  object-fit: cover;
+}
+
+header .content-text button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgb(255, 38, 0);
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+}
+
+header .content-text button:hover {
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+.main-content h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  padding: 0px 0px 30px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-content .sub-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.main-content .sub-content img {
+  width: 120%;
+  max-height: 215px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.main-content .sub-content-1,
+.sub-content-2,
+.sub-content-3,
+.sub-content-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-content-2 {
+  background-color: rgb(182, 181, 181);
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-content-2 .para p {
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content-2 .author p {
+  float: right;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+.signup {
+  padding: 75px 75px;
+}
+
+.signup .box {
+  background-color: royalblue;
+  padding: 59px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.signup .box-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.signup .box h2 {
+  font-size: 1.3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.signup .box p {
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup .right button {
+  font-size: 1em;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 8px;
+  outline: white;
+  background-color: rgb(65, 105, 225);
+  color: white;
+}
+
+.signup .right button:hover {
+  background-color: rgb(27, 75, 219);
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.8em;
+}
