@@ -113,11 +113,12 @@ header .content-text button:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 50px;
+  gap: 10px;
+  padding: 0px 150px;
 }
 
 .main-content .sub-content img {
-  width: 120%;
+  width: 100%;
   max-height: 215px;
   object-fit: cover;
   border-radius: 5px;
@@ -130,6 +131,13 @@ header .content-text button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.main-content .sub-content-1:hover,
+.sub-content-2:hover,
+.sub-content-3:hover,
+.sub-content-4:hover {
+  box-shadow: 2px 5px 6px 1px rgba(255, 0, 0, 0.4);
 }
 
 .main-content p {
